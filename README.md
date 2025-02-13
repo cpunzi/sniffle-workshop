@@ -9,4 +9,4 @@
 </h5>
 Conference dates: *June 9-13, 2025, Pisa, Italy*
 Workshop date: *June 9 or 10, 2025, Pisa, Italy (TBA)*
-Workshop location: <em>University of Pisa, Italy (TBA)*
+Workshop location: *University of Pisa, Italy (TBA)*
