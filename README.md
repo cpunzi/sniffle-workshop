@@ -1,6 +1,6 @@
 <figure>
     <img src="/assets/img/rivera.bin" style="display: block; margin: auto;width: 100%;">
-    <figcaption style="text-align: right;color:grey;">North wall, Diego Rivera, <em>Detroit Industry murals</em>, 1932-33, twenty-seven fresco panels at the Detroit Institute of Arts</figcaption>
+    <figcaption style="text-align: right;color:grey;">North wall, Diego Rivera, <em>Detroit Industry murals</em>, 1932-33, Detroit Institute of Arts</figcaption>
 </figure>
 
 ## The First Workshop on AI, Labour and Society (AILS) 

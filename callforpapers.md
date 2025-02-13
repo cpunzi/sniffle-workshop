@@ -6,7 +6,7 @@ permalink: /callforpapers/
 
 <figure>
     <img src="/assets/img/muro_sur_rivera_cut.jpg" style="display: block; margin: auto;width: 100%;">
-    <figcaption style="text-align: right;color:grey;">South wall, Diego Rivera, <em>Detroit Industry murals</em>, 1932-33, twenty-seven fresco panels at the Detroit Institute of Arts</figcaption>
+    <figcaption style="text-align: right;color:grey;">South wall, Diego Rivera, <em>Detroit Industry murals</em>, 1932-33, Detroit Institute of Arts</figcaption>
 </figure>
 
 <!-- 
