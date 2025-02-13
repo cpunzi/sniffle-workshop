@@ -13,7 +13,7 @@ layout: default
 	  	{% for organizer in site.organizers %}
 		    <tr style="border: none;">
 		        <td style="border: none;">
-		            <div class="col-xs-12">
+		            <div class="col-md-12">
 		                <p align="center">
 		                	{% if organizer.img %}
 		                    	<img class="people-pic" src="{{ organizer.img | prepend: '/assets/img/organizers/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
@@ -25,13 +25,23 @@ layout: default
 		        </td>
 		        <td style="border: none;">
 		            <div class="people-name text-center">
+						<span style="font-size: 1.3em; font-weight: bold;">
 		            	<!-- organizer name (link to webpage if provided) -->
 		            	{% if organizer.webpage %}
 		            		<a href="{{ organizer.webpage }}" target="_blank">{{ organizer.name }}</a>
 		            	{% else %}
 		            		{{ organizer.name }}
 		            	{% endif %}
-		                <br>
+					</span>
+
+						{% if organizer.role_link %}
+							<br>
+							<a href="{{ organizer.role_link }}" target="_blank">{{ organizer.role }}</a>
+						{% elsif organizer.role %}
+							<br>
+							{{ organizer.role }}
+						{% endif %}
+						<br>
 		                <!-- organizer affiliation (if provided) -->
 		                {% if organizer.affil_link %}
 		                	<a href="{{ organizer.affil_link }}" target="_blank">{{ organizer.affil }}</a>
@@ -46,7 +56,19 @@ layout: default
 		                	<br>
 		                	{{ organizer.affil2 }}
 		                {% endif %}
+						{% if organizer.affil3_link %}
+						<br>
+						<a href="{{ organizer.affil3_link }}" target="_blank">{{ organizer.affil3 }}</a>
+					{% elsif organizer.affil3 %}
+						<br>
+						{{ organizer.affil3 }}
+					{% endif %}
 		            </div>
+		        </td>
+				<td style="border: none;">
+		        	<div class="people-name text-center">
+		        		{{ organizer.content }}
+		        	</div>
 		        </td>
 		    </tr>
 	    {% endfor %}

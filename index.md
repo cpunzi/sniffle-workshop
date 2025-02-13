@@ -3,20 +3,49 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: Home
+title: 
 layout: home
 ---
+<figure>
+    <img src="assets/img/rivera.bin" style="display: block; margin: auto;width: 100%;">
+    <figcaption style="text-align: right;color:grey;">North wall, Diego Rivera, <em>Detroit Industry murals</em>, 1932-33, twenty-seven fresco panels at the Detroit Institute of Arts</figcaption>
+</figure>
 
-Hi there! Here's the lazy grad student's template for workshop webpages. I put this together to help automate mundane tasks with conventional workshop webpages - curating lists of speakers and/or organizers, schedules, and submitted/accepted papers. Here's a completely unrelated picture adapted from "Machine Learning & Artificial Intelligence" by `mikemacmarketing`; licensed under CC BY 2.0:
+<h2 style="font-size: 24;text-align: center"> The First Workshop on AI, Labour and Society (AILS) </h2>
+<h5 style="font-size: 20;text-align: center">
+    <a href="https://hhai-conference.org/2025/">Hosted by the Fourth International Conference on Hybrid Human-Artificial Intelligence (HHAI 2025)</a>
+</h5>
 
-![](assets/img/banner.jpg)
+<!---
+<h5 style="font-size: 20;text-align: center"> Hosted by the Fourth International Conference on Hybrid Human-Artificial Intelligence <a href=“https://hhai-conference.org/2025/”></a>(HHAI 2025)</h5>
+--->
+<h6 style="text-align: center"> Conference dates: <em>June 9-13, 2025, Pisa, Italy </em></h6>
+<h6 style="text-align: center"> Workshop date: <em>June 9 or 10, 2025, Pisa, Italy (TBA) </em></h6>
+<h6 style="text-align: center"> Workshop location: <em>University of Pisa, Italy (TBA) </em></h6>
 
-The theme is quite easy to use if you're familiar with Jekyll. The following collections are implemented:
-1. **Speakers**: Curate a [speaker list like this one](speakers) from a set of markdown files, one per speaker. Crops and displays images if available. Adds a short bio. See files in the `_speakers` directory for examples.
-2. **Organizers**: Curate an organizer list from a set of markdown files, one per organizer. See files in the `_organizers` directory for examples.
-3. **Schedule**: Curate a [schedule like this](schedule) from a set of markdown files, one per event (talk, panel, break, etc.). See files in the `_schedule` directory for examples. Schedule items are sorted by a `sequence_id` attribute.
-4. **Papers**: Curate a [list of papers like this](papers) from a bunch of markdown files, one per paper. See files in the `_papers` directory for examples. Papers are sorted by a `sequence_id` attribute if specifed (else they are listed alphabetically).
 
-> **NOTE:** The best way to use these is to turn feature on or off by editing the `collections` attribute in `_config.yml`.
+### About the workshop
 
-If you experience issues or have cool features to add, feel free to [fork this template]().
+The rise of AI, particularly Generative AI, is transforming labor markets, industries, and economies worldwide, raising urgent questions about inequality, job displacement, algorithmic management, and corporate power. **This workshop fosters an interdisciplinary dialogue between social scientists, economists, and AI experts to examine AI’s impact on labor and society and explore pathways for more equitable and sustainable technological development.**
+Building on previous conferences held in collaboration with [FAIR](https://fondazione-fair.it/) at Scuola Normale Superiore in Florence ([The governance of digital platforms and Artificial Intelligence](https://istitutociampi.sns.it/en/evento/the-impact-of-ai-on-society), [The Impact of AI on Society](https://istitutociampi.sns.it/en/evento/the-governance-of-digital-platforms-and-artificial-intelligence-2/)) and Scuola Superiore Sant’Anna in Pisa ([Inequalities and technical change, labour markets and decarbonization paths: results from PRIN projects](https://www.santannapisa.it/it/evento/inequalities-and-technical-change-labour-markets-and-decarbonization-paths-results-prin)), the workshop will showcase cutting-edge research at the intersection of AI, labor, and society. 
+
+We welcome contributions that investigate AI as both a tool for studying its societal effects and as an object of study in itself, namely, something that can be proactively shaped to influence the **future trajectory of the digital economy and society**. 
+We welcome diverse methodological approaches, covering topics that range from studies of technological change to economics, from sociology to industrial relations. 
+The event will feature paper presentations by participants as well as roundtable discussions among senior experts, drawing broader lessons from the findings of the papers presented and engaging in an interdisciplinary debate with AI experts, computer specialists and data scientists.
+
+
+
+<!---
+ The theme is quite easy to use if you're familiar with Jekyll. The following collections are implemented:
+ 1. **Speakers**: Curate a [speaker list like this one](speakers) from a set of markdown files, one per speaker. Crops and displays images if available. Adds a short bio. See files in the `_speakers` directory for examples.
+
+ North wall: Rivera expresses hope for the future of the working class, representing a diverse work environment with peaple from different background working together, much different from the reality which was instead dominated by segregation and social, economical and political issues. 
+
+ Positive (vaccine) vs destructive use of scientific research (manufacturing of poisonous gas in WWI -> damaged cells)
+
+ South wall: management reprenting violent security force that patrolled the factory
+ Duality of technology
+
+ West wall: civilian vs war planes
+
+--->

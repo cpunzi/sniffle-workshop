@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sniffle Workshop
-email: your-email@example.com
+title: AI, Labour and Society
+email: clara.punzi@sns.it
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for the workshop site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Workshop hosted by the 4th International Conference on Hybrid Human-Artificial Intelligence (HHAI 2025).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rethinkmlpapers
@@ -38,11 +36,12 @@ plugins:
 # this and add the path to the pages in order as they should show up
 header_pages:
 - index.md
-- speakers.md
+- home.md
+#- speakers.md
 - organizers.md
 - callforpapers.md
-- schedule.md
-- papers.md
+#- schedule.md
+#- papers.md
 - contactus.md
 
 # # Specify the name of a file to show as a masthead graphic at the top of each page, instead of a title, here:
@@ -61,16 +60,18 @@ last_updated: true
 # Define collections (speakers, organizers, papers)
 # To turn off any of these collections, just set "output" to "false"
 collections:
-  speakers:
+  home:
     output: true
+  speakers:
+    output: false
   organizers:
     output: true
   schedule:
     sort_by: sequence_id
-    output: true
+    output: false
   papers:
     sort_by: sequence_id
-    output: true
+    output: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

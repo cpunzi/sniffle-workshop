@@ -46,6 +46,13 @@ layout: default
 		                	<br>
 		                	{{ speaker.affil2 }}
 		                {% endif %}
+						{% if speaker.affil3_link %}
+		                	<br>
+		                	<a href="{{ speaker.affil3_link }}" target="_blank">{{ speaker.affil3 }}</a>
+		                {% elsif speaker.affil3 %}
+		                	<br>
+		                	{{ speaker.affil3 }}
+		                {% endif %}
 		            </div>
 		        </td>
 		        <td style="border: none;">
