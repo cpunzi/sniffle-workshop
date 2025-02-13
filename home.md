@@ -20,10 +20,9 @@ layout: home
 <!---
 <h5 style="font-size: 20;text-align: center"> Hosted by the Fourth International Conference on Hybrid Human-Artificial Intelligence <a href=“https://hhai-conference.org/2025/”></a>(HHAI 2025)</h5>
 --->
-<h5 style="text-align: center"> Conference dates: <em>June 9-13, 2025, Pisa, Italy </em></h5>
-<h5 style="text-align: center"> Workshop date: <em>June 9 or 10, 2025, Pisa, Italy (TBA) </em></h5>
-<h5 style="text-align: center"> Workshop location: <em>University of Pisa, Italy (TBA) </em></h5>
-
+<h6 style="text-align: center"> Conference dates: <em>June 9-13, 2025, Pisa, Italy </em></h6>
+<h6 style="text-align: center"> Workshop date: <em>June 9 or 10, 2025, Pisa, Italy (TBA) </em></h6>
+<h6 style="text-align: center"> Workshop location: <em>University of Pisa, Italy (TBA) </em></h6>
 
 ### About the workshop
 
