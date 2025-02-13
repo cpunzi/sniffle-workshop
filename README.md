@@ -3,10 +3,10 @@
     <figcaption style="text-align: right;color:grey;">North wall, Diego Rivera, <em>Detroit Industry murals</em>, 1932-33, twenty-seven fresco panels at the Detroit Institute of Arts</figcaption>
 </figure>
 
-<h2 style="font-size: 24;text-align: center"> The First Workshop on AI, Labour and Society (AILS) </h2>
+## The First Workshop on AI, Labour and Society (AILS) 
 <h5 style="font-size: 20;text-align: center">
     <a href="https://hhai-conference.org/2025/">Hosted by the Fourth International Conference on Hybrid Human-Artificial Intelligence (HHAI 2025)</a>
 </h5>
-<h6 style="text-align: center"> Conference dates: <em>June 9-13, 2025, Pisa, Italy </em></h6>
-<h6 style="text-align: center"> Workshop date: <em>June 9 or 10, 2025, Pisa, Italy (TBA) </em></h6>
-<h6 style="text-align: center"> Workshop location: <em>University of Pisa, Italy (TBA) </em></h6>
+Conference dates: *June 9-13, 2025, Pisa, Italy*
+Workshop date: *June 9 or 10, 2025, Pisa, Italy (TBA)*
+Workshop location: <em>University of Pisa, Italy (TBA)*
