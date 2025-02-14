@@ -9,77 +9,6 @@ permalink: /callforpapers/
     <figcaption style="text-align: right;color:grey;">South wall, Diego Rivera, <em>Detroit Industry murals</em>, 1932-33, Detroit Institute of Arts</figcaption>
 </figure>
 
-<!-- 
-<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 4</div>
-      <img src="/assets/img/detalle_norte_poison.jpg" style="height:100">
-      <div class="text">Poison</div>
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">2 / 4</div>
-      <img src="/assets/img/detalle_norte_vaccine.jpg" style="height:100">
-      <div class="text">Vaccination</div>
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">3 / 4</div>
-      <img src="/assets/img/detalle_sur_manager.jpg" style="height:100">
-      <div class="text">Manager</div>
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">4 / 4</div>
-      <img src="/assets/img/detalle_sur_pharmacy.jpg" style="height:100">
-      <div class="text">Medicine</div>
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-      <img src="assets/img/independece_north_south_large.png" style="width:100%">
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-      <img src="img_snow_wide.jpg" style="width:100%">
-  </div>
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-  </div>
-</div>
--->
-
-
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 10000); // Change image every 2 seconds
-}
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-</script>
-
-
 ## Topics of interest
 
 The workshop invites **technical as well as non-technical** submissions, which encompass experimental, theoretical or methodological contributions. We explicitly welcome interdisciplinary submissions that explore the **use of AI and its social, economical and political implications**. The topics of interest include, but are not limited to:
@@ -95,6 +24,7 @@ The workshop invites **technical as well as non-technical** submissions, which e
 * Unpacking black-box socio-technical systems: revealing the technical roots of socio-economic vulnerabilities.
 * The materiality of AI: assessment and mitigation of environmental and human costs of AI. Are sustainable futures for digital societies attainable for all? 
 * From AI to Generative AI: a paradigm shift in the digital economy?
+* AI and the digital public sphere: methods and implications for knowledge production and diffusion, public opinion, and political dynamics.
 
 The workshop encourages methodological plurality; hence, submissions based on different research designs and methods are welcome, spanning data science, social sciences, and interdisciplinary approaches. Proposals may include papers presenting robust empirical research, or papers that showcase ongoing work and novel frameworks for comprehending and analysing AI systems in the context of labour and society.
 
@@ -102,12 +32,12 @@ The workshop encourages methodological plurality; hence, submissions based on di
 ## Submission instructions
 We welcome the following types of submissions:
 
-* **Full original research paper** that presents original, impactful work (10 to 12 pages).
+* **Full-length original research paper** that presents original, impactful work (10 to 12 pages).
 * **Working papers** that present work in progress (5 to 9 pages).
 * **Blue sky papers** that present visionary ideas to stimulate the research community (5 to 9 pages).
-* **Extended abstracts** describing early-stage research and **research communication** of already published papers that serves to promote the dissemination of contributions aligned with the scope of the workshop (up to 4 pages);  
+* **Extended abstracts** describing early-stage research and **research communication** of already published papers that serves to promote the dissemination of contributions aligned with the scope of the workshop (up to 4 pages).
 
-All paper lengths exclude references, which are unlimited. All submissions should adhere to the [CEUR-WS proceeding guidelines](https://ceur-ws.org/HOWTOSUBMIT.html) and be uploaded on [Easychair](). Authors should submit their papers as single-column, using one of the following templates:
+All paper lengths exclude references, which are unlimited. All submissions should adhere to the [CEUR-WS proceeding guidelines](https://ceur-ws.org/HOWTOSUBMIT.html) and be uploaded on [Easychair](https://easychair.org/conferences/?conf=ails2025). Authors should submit their papers as single-column, using one of the following templates:
 
 * [Overleaf](https://www.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/wqyfdgftmcfw) template in LaTeX format.
 * [Word](https://ceur-ws.org/Vol-IAOA/CEUR-Template-1col.docx) template.
@@ -116,8 +46,9 @@ All paper lengths exclude references, which are unlimited. All submissions shoul
 These templates can also be downloaded as an offline version with the style files [here](http://ceur-ws.org/Vol-XXX/CEURART.zip).
 
 
-Submissions are double-blind (i.e., submissions must not include the author’s names and affiliation) peer-reviewed by at least two members of the program committee and evaluated on the basis of relevance, originality, significance, soundness, and clarity. Papers that exceed the page limits or formatting guidelines will be returned without review. At submission time, authors will have to indicate the contribution type. Accepted papers will be presented at the workshop through oral presentations, lightning talks or posters. Hence, we require that at least one author of each accepted paper registers for either the conference or the single-day workshop (*TBC*). 
-Moreover, accepted contributions will be collected into a volume of the HHAI 2025 Workshop and Tutorial proceedings under [CEUR-WS](https://ceur-ws.org/HOWTOSUBMIT.html) or submitted to special issues of pertinent scientific journals (*TBC*).
+Submissions are double-blind (i.e., submissions must not include the author’s names and affiliation) peer-reviewed by at least two members of the program committee and evaluated on the basis of relevance, originality, significance, soundness, and clarity. At submission time, authors will have to indicate the contribution type. Accepted papers will be presented at the workshop through oral presentations, lightning talks or posters. Hence, we require that at least one author of each accepted paper registers for either the conference or the single-day workshop (*TBC*). 
+
+Moreover, accepted contributions will be collected into a volume of the HHAI 2025 Workshop and Tutorial proceedings under [CEUR-WS](https://ceur-ws.org/HOWTOSUBMIT.html) or submitted to special issues of pertinent scientific journals (*TBC*). **Full-length original research papers** that lack a strong emphasis on computer science in both research methodologies and author expertise, could be submitted to relevant **international journals in the fields of social sciences**.
 
 The workshop seeks to achieve global and diverse participation. With an effort towards equitable conversations, we invite contributions from marginalised perspectives and communities in AI.      
 
