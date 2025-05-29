@@ -10,6 +10,6 @@
 
 Conference dates: *June 9-13, 2025, Pisa, Italy*
 
-Workshop date: *June 9 or 10, 2025, Pisa, Italy (TBA)*
+Workshop date: *June 10, 2025, Pisa, Italy*
 
-Workshop location: *University of Pisa, Italy (TBA)*
+Workshop location: *Aula Magna Storica, Palazzo della Sapienza, University of Pisa, Italy*

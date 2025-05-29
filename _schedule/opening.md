@@ -6,8 +6,8 @@ sequence_id: 0
 speaker: Organizers
 
 # Title of the event
-title: Opening remarks
+title: Opening remarks and introduction to the SoBigData Research Infrastructure
 
 # Time of the event
-time: 0900 - 0915
+time: 9:30
 ---

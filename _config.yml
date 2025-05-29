@@ -24,8 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Workshop hosted by the 4th International Conference on Hybrid Human-Artificial Intelligence (HHAI 2025).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rethinkmlpapers
-github_username:  rethinkmlpapers
+
 
 # Build settings
 plugins:
@@ -40,7 +39,8 @@ header_pages:
 #- speakers.md
 - organizers.md
 - callforpapers.md
-#- schedule.md
+- schedule.md
+- registration.md
 #- papers.md
 - contactus.md
 
@@ -51,8 +51,8 @@ header_pages:
 
 # A two-line attribution (remove this if you have to, but we'd appreciate if you leave this as is)
 attribution: >
-  Based on a <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> template from a <a href="https://krrish94.github.io">lazy grad student</a>.
-  Some icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+#  Based on a <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> template from a <a href="https://krrish94.github.io">lazy grad student</a>.
+#  Some icons made by <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
 
 # Displays a "last updated" date in the footer if set to "true"
 last_updated: true
@@ -68,11 +68,14 @@ collections:
     output: true
   schedule:
     sort_by: sequence_id
-    output: false
+    output: true
   papers:
     sort_by: sequence_id
     output: false
+  registration:
+    output: true
 
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

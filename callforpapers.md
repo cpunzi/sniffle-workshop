@@ -52,11 +52,28 @@ Moreover, accepted contributions will be collected into a volume of the HHAI 202
 
 The workshop seeks to achieve global and diverse participation. With an effort towards equitable conversations, we invite contributions from marginalised perspectives and communities in AI.      
 
+<style>
+  .my-button {
+    background-color: maroon;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display:block;
+    margin:auto;
+  }
+</style>
+
+<a href='https://easychair.org/conferences/?conf=ails2025'><button class="my-button">Sumbit your paper here</button>
+
 
 ## Important dates
 
-Tentative timeline:
-* **Paper submission**: April 11, 2025
-* **Acceptance notification**: May 2, 2025
-* **Camera-ready version**: May 12, 2025
-* **Workshop**: June 9 or 10, 2025 *(TBA)*
+* **Paper submission deadline (archival)**: ~~April 11, 2025~~ May 4, 2025
+* **Paper submission deadline (non-archival)**: ~~April 11, 2025~~ May 11, 2025
+* **Acceptance notification**: ~~May 2, 2025~~ May 14, 2025
+* **Camera-ready version**: ~~May 12, 2025~~ June 1, 2025
+* **Workshop**: June 10, 2025
+
+All deadlines are at the end of the day specified, anywhere on Earth (UTC-12).
